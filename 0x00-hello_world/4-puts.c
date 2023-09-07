@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ * Description: 'the program's description'
  *main -main entry print
  *return
  */
