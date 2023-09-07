@@ -1,7 +1,8 @@
 #include <stdio.h>
-/**
- *main -main entry print
- *return
+/**                                                                                
+ * Description: 'the program's description'                                        
+ *main -main entry print                                                           
+ *return                                                                           
  */
 int main(void)
 {
