@@ -1,7 +1,11 @@
 #include <stdio.h>
 /**
- *main - main entry point
- *return : always 0 (success)
+ * The main function of the program.
+ *
+ * This function prints a message using the 'puts' function and returns 0
+ * to indicate successful execution.
+ *
+ * @return 0 on successful execution.
  */
 int main(void)
 {
