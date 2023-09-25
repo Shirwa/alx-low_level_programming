@@ -10,6 +10,7 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
+<<<<<<< HEAD
 	int a;
 
 	a = 0;
@@ -24,6 +25,22 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[a] = '\0';
 		a++;
+=======
+	int i;
+
+	i = 0;
+
+	while (src[i] != '\0' && i < n)
+	{
+		dest[i] = src[i];
+		i++;
+	}
+
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+>>>>>>> 1d58131bba19758bffb5ac331e17433480eeede3
 	}
 
 	return (dest);
